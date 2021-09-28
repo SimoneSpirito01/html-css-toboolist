@@ -48,6 +48,10 @@ main {
 
 /* **** sezione add **** */
 
+.container section{
+    padding-left: 50px;
+}
+
 #add {
     height: 50px;
     margin-bottom: 20px;
@@ -64,7 +68,7 @@ main {
 #task-bt {
     color: white;
     border: 0;
-    margin: 15px 2px 2px 50px;
+    margin: 15px 2px 2px 0;
 }
 
 #section-bt {
@@ -79,14 +83,15 @@ main {
 
 /* **** sezione new task **** */
 
-#new-task {
-    height: 300px;
-    padding-left: 50px;
+.todo-bt {
+    color: white;
+    border: 0;
+    border-radius: 50px;
+    padding: 7px 12px;
+
 }
 
-#check {
-    color: #90d4c4;
-    border: 2px solid #90d4c4;
+.check-box {
     border-radius: 50%;
     display: inline-block;
     width: 20px;
@@ -95,3 +100,28 @@ main {
     text-align: center;
     font-size: 12px;
 }
+
+.done {
+    color: #90d4c4;
+    border: 2px solid #90d4c4;
+}
+
+/* **** sezione today **** */
+
+.violet {
+    background-color: #9c72e4;
+}
+
+.not-done{
+    color: red;
+    border: 2px solid red;
+}
+
+.aqua-green {
+    background-color: #64c0a9;
+}
+
+.orange {
+    background-color: #f29e33;
+}
+
