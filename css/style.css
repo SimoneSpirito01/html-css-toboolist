@@ -31,31 +31,25 @@ header {
 
 /* ****** main ****** */
 
-.container {
-    background-color: white;
-    width: 60%;
-    height: 1000px;
-    margin: 40px auto;
-    border-radius: 4px;
-
-}
-
 main {
     background-color: #f6f8f9;
-    width: 100%;
-    height: 100%;
+}
+
+.container {
+    margin: 40px auto;
+    background-color: white;
+    width: 60%;
+    border-radius: 5px;
 }
 
 /* **** sezione add **** */
 
-.container section{
-    padding-left: 50px;
+.blue {
+    background-color: #47adf1;
 }
 
 #add {
-    height: 50px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    padding: 15px 0 8px 50px;
     border-bottom: 2px solid #f6f8f9;
 }
 
@@ -68,26 +62,30 @@ main {
 #task-bt {
     color: white;
     border: 0;
-    margin: 15px 2px 2px 0;
+    /* margin: 15px 2px 2px 0; */
 }
 
 #section-bt {
-    color: grey;
+    color: lightgray;
     background-color: white;
     border: 1px solid lightgray;
 }
 
-.blue {
-    background-color: #47adf1;
+/* **** sezione new task **** */
+
+.section-body {
+    padding: 15px 50px;
 }
 
-/* **** sezione new task **** */
+.todo {
+    padding: 10px 0;
+}
 
 .todo-bt {
     color: white;
     border: 0;
     border-radius: 50px;
-    padding: 7px 12px;
+    padding: 5px 12px;
 
 }
 
@@ -104,6 +102,10 @@ main {
 .done {
     color: #90d4c4;
     border: 2px solid #90d4c4;
+}
+
+#new-task {
+    padding-top: 25px;
 }
 
 /* **** sezione today **** */
@@ -135,3 +137,6 @@ main {
     background-color: #b2ca2a;
 }
 
+#upcoming {
+    padding-bottom: 25px;
+}
