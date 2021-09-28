@@ -79,4 +79,19 @@ main {
 
 /* **** sezione new task **** */
 
+#new-task {
+    height: 300px;
+    padding-left: 50px;
+}
 
+#check {
+    color: #90d4c4;
+    border: 2px solid #90d4c4;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+}
